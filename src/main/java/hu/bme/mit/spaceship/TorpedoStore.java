@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  private Random generator = new Random();
+  private Random generator = new Random(); //Véletlenszám generátor a torpedók kilövésének szimulálásához
 
 
   public TorpedoStore(int numberOfTorpedos){
@@ -61,3 +61,4 @@ public class TorpedoStore {
     return this.torpedoCount;
   }
 }
+//Kommentelek mert ezt kérték
